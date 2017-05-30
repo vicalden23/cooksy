@@ -19,7 +19,7 @@ module.exports = new Strategy(
       .then(function(user) {
         var payload = {
           sub: user.id,
-          user: user.name,
+          user: user.username,
           role: 'user',
           zipcode: user.zipcode
         };
