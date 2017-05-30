@@ -39,7 +39,7 @@ module.exports = new Strategy(
 
           var payload = {
             sub: chef.id,
-            user: chef.name,
+            user: chef.username,
             role: 'chef',
             zipcode: chef.zipcode
           };
